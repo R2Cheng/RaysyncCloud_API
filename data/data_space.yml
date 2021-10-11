@@ -1,0 +1,20 @@
+my_info:
+  my_info1:
+    status_code : 200
+    message : "OK"
+
+share_add:
+  share_add1:
+    status_code : 200
+    message : "OK"
+    file : "/MyStudy"
+    shareType : 2
+    regionId : "10001"
+    fileType : 2
+    prefixUrl : "https://client.raysync.cloud/share/"
+    size: 0
+    noticeEmail : ""
+    times : -1
+    noLogin : 1
+    emailContent : ""
+    expireTime : ""

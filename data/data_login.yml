@@ -1,0 +1,13 @@
+login_success:
+
+  login1:
+    loginType : 1
+    username: "test_gc"
+    password: "pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5"
+    status_code : 200
+    message : "OK"
+
+login_error:
+  login_error:
+     num: "test_gc"
+     password: "Ruiyun123"

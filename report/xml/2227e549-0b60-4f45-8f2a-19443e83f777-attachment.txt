@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_login.py:28 -----------------test case login start-----------------
+[32mINFO    [0m root:test_login.py:35 APi_Code ==>> 期望结果：200， 实际结果：200
+[32mINFO    [0m root:test_login.py:38 APi_Message ==>> 期望结果：OK， 实际结果：OK
+[32mINFO    [0m root:test_login.py:42 登录接口获取到用户test_gc,的 token:ccf8fb5c6a26417a9bcc43d3b687dc24
+[32mINFO    [0m root:test_login.py:44 -----------------test case login stop-----------------

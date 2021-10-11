@@ -1,0 +1,162 @@
+{
+  "uid" : "5a5eeb79f28c6ff4",
+  "name" : "test_share_add[info0]",
+  "fullName" : "case.test_space.TestSpace#test_share_add",
+  "historyId" : "37bc2f2c835ad7ddb7d7ddeb25eae891",
+  "time" : {
+    "start" : 1633958258161,
+    "stop" : 1633958258291,
+    "duration" : 130
+  },
+  "description" : "该用例是针对在我的空间创建用户分享下载链接接口的测试",
+  "descriptionHtml" : "<p>该用例是针对在我的空间创建用户分享下载链接接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestSpace",
+    "time" : {
+      "start" : 1633958257930,
+      "stop" : 1633958257930,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例是针对在我的空间创建用户分享下载链接接口的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我的空间创建分享下载链接",
+      "time" : {
+        "start" : 1633958258161,
+        "stop" : 1633958258291,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "session",
+        "value" : "<requests.sessions.Session object at 0x000001D248E27358>"
+      }, {
+        "name" : "file",
+        "value" : "'/MyStudy'"
+      }, {
+        "name" : "shareType",
+        "value" : "2"
+      }, {
+        "name" : "regionId",
+        "value" : "'10001'"
+      }, {
+        "name" : "fileType",
+        "value" : "2"
+      }, {
+        "name" : "prefixUrl",
+        "value" : "'https://client.raysync.cloud/share/'"
+      }, {
+        "name" : "size",
+        "value" : "''"
+      }, {
+        "name" : "noticeEmail",
+        "value" : "-1"
+      }, {
+        "name" : "times",
+        "value" : "1"
+      }, {
+        "name" : "noLogin",
+        "value" : "''"
+      }, {
+        "name" : "emailContent",
+        "value" : "''"
+      }, {
+        "name" : "expireTime",
+        "value" : "0"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4f023d44b77b6968",
+      "name" : "log",
+      "source" : "4f023d44b77b6968.txt",
+      "type" : "text/plain",
+      "size" : 389
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestSpace::0",
+    "time" : {
+      "start" : 1633958258292,
+      "stop" : 1633958258293,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例--我的空间创建用户分享下载链接测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_space"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSpace"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-J7QMKKTN"
+  }, {
+    "name" : "thread",
+    "value" : "22112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_space"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "{'status_code': 200, 'message': 'OK', 'file': '/MyStudy', 'shareType': 2, 'regionId': '10001', 'fileType': 2, 'prefixUrl': 'https://client.raysync.cloud/share/', 'size': 0, 'noticeEmail': '', 'times': -1, 'noLogin': 1, 'emailContent': '', 'expireTime': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a5eeb79f28c6ff4.json",
+  "parameterValues" : [ "{'status_code': 200, 'message': 'OK', 'file': '/MyStudy', 'shareType': 2, 'regionId': '10001', 'fileType': 2, 'prefixUrl': 'https://client.raysync.cloud/share/', 'size': 0, 'noticeEmail': '', 'times': -1, 'noLogin': 1, 'emailContent': '', 'expireTime': ''}" ]
+}

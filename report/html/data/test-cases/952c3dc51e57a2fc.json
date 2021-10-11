@@ -1,0 +1,138 @@
+{
+  "uid" : "952c3dc51e57a2fc",
+  "name" : "test_login[info0]",
+  "fullName" : "case.test_login.TestLogin#test_login",
+  "historyId" : "fbbb08a2408e615617aedd1f91a60b94",
+  "time" : {
+    "start" : 1633958257375,
+    "stop" : 1633958257926,
+    "duration" : 551
+  },
+  "description" : "该用例是针对登录接口的测试",
+  "descriptionHtml" : "<p>该用例是针对登录接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1633958257374,
+      "stop" : 1633958257374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例是针对登录接口的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入登录参数",
+      "time" : {
+        "start" : 1633958257375,
+        "stop" : 1633958257925,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "session",
+        "value" : "<requests.sessions.Session object at 0x000001D248E51438>"
+      }, {
+        "name" : "loginType",
+        "value" : "1"
+      }, {
+        "name" : "username",
+        "value" : "'test_gc'"
+      }, {
+        "name" : "password",
+        "value" : "'pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b8b590979ad10010",
+      "name" : "log",
+      "source" : "b8b590979ad10010.txt",
+      "type" : "text/plain",
+      "size" : 499
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1633958257927,
+      "stop" : 1633958257928,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例--登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-J7QMKKTN"
+  }, {
+    "name" : "thread",
+    "value" : "22112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "info",
+    "value" : "{'loginType': 1, 'username': 'test_gc', 'password': 'pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5', 'status_code': 200, 'message': 'OK'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "952c3dc51e57a2fc.json",
+  "parameterValues" : [ "{'loginType': 1, 'username': 'test_gc', 'password': 'pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5', 'status_code': 200, 'message': 'OK'}" ]
+}

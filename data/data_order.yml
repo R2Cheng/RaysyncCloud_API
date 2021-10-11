@@ -1,0 +1,7 @@
+recharge_list:
+  list1:
+    status_code : 200
+    message : "OK"
+    pageNum : 1
+    status : -999
+
