@@ -18,6 +18,7 @@ class TestLogin:
     def teardown_class(self):
         self.session.close()
 
+    @allure.feature("登录模块")
     # allure标题-title
     @allure.story("用例--登录测试")
     # allure描述信息

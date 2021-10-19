@@ -2,72 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "case",
+    "name" : "case.test_login",
     "children" : [ {
-      "name" : "test_login",
-      "children" : [ {
-        "name" : "test_login[info0]",
-        "uid" : "952c3dc51e57a2fc",
-        "parentUid" : "7455f18e90cc23ccd1b95606a96b7fcb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1633958257375,
-          "stop" : 1633958257926,
-          "duration" : 551
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'loginType': 1, 'username': 'test_gc', 'password': 'pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5', 'status_code': 200, 'message': 'OK'}" ]
-      } ],
-      "uid" : "7455f18e90cc23ccd1b95606a96b7fcb"
-    }, {
-      "name" : "test_space",
-      "children" : [ {
-        "name" : "test_get_my_info[info0]",
-        "uid" : "8f364922bc4d5d70",
-        "parentUid" : "56af29731fab6bcda9108e5e7bfdfe82",
-        "status" : "passed",
-        "time" : {
-          "start" : 1633958257930,
-          "stop" : 1633958258158,
-          "duration" : 228
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'status_code': 200, 'message': 'OK'}" ]
-      }, {
-        "name" : "test_share_add[info0]",
-        "uid" : "5a5eeb79f28c6ff4",
-        "parentUid" : "56af29731fab6bcda9108e5e7bfdfe82",
-        "status" : "passed",
-        "time" : {
-          "start" : 1633958258161,
-          "stop" : 1633958258291,
-          "duration" : 130
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'status_code': 200, 'message': 'OK', 'file': '/MyStudy', 'shareType': 2, 'regionId': '10001', 'fileType': 2, 'prefixUrl': 'https://client.raysync.cloud/share/', 'size': 0, 'noticeEmail': '', 'times': -1, 'noLogin': 1, 'emailContent': '', 'expireTime': ''}" ]
-      } ],
-      "uid" : "56af29731fab6bcda9108e5e7bfdfe82"
-    }, {
-      "name" : "test_order",
-      "children" : [ {
-        "name" : "test_get_recharge_list[info0]",
-        "uid" : "8191c4a3a58d53f4",
-        "parentUid" : "950605b43d93062a4aad8b0108bd947a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1633958258296,
-          "stop" : 1633958258992,
-          "duration" : 696
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'status_code': 200, 'message': 'OK', 'pageNum': 1, 'status': -999}" ]
-      } ],
-      "uid" : "950605b43d93062a4aad8b0108bd947a"
+      "name" : "test_login[info0]",
+      "uid" : "8e032180c5ed7afe",
+      "parentUid" : "7455f18e90cc23ccd1b95606a96b7fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634645345387,
+        "stop" : 1634645346000,
+        "duration" : 613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'loginType': 1, 'username': 'test_gc', 'password': 'pdLQRYEwePDdW2AJ85rKpMaoZ4q9vk50VYNWynXByxQGObvk6L10V9zN3ljmoOP5', 'status_code': 200, 'message': 'OK'}" ]
     } ],
-    "uid" : "3a5ff917f72cbd03b2a2ff2549394ef0"
+    "uid" : "case.test_login"
   } ]
 }

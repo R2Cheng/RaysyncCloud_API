@@ -1,0 +1,9 @@
+.side-nav__brand {
+  background: url('1.png') no-repeat left center !important;
+  height: 55px;
+  background-size: contain !important;
+}
+
+ .side-nav__brand-text {
+  display: none;
+}

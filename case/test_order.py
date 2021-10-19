@@ -16,6 +16,7 @@ class TestOrder:
     def teardown_class(self):
         self.session.close()
 
+    @allure.feature("订单记录模块")
     # allure标题-title
     @allure.story("用例--订单记录获取列表测试")
     # allure描述信息

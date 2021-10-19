@@ -1,41 +1,8 @@
 {
-  "total" : 4,
+  "total" : 1,
   "items" : [ {
     "uid" : "9be350c4855ba572c584057958f715c4",
     "name" : "用例--登录测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "0d6b0224cae474ec97ad0794af6623e4",
-    "name" : "用例--我的空间获取用户信息测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "81978b22d32506b67ff48e2d6208a12f",
-    "name" : "用例--我的空间创建用户分享下载链接测试",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e24b93af9e280ab42880a995a1f18353",
-    "name" : "用例--获取订单记录列表测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -16,6 +16,7 @@ class TestSpace:
     def teardown_class(self):
         self.session.close()
 
+    @allure.feature("我的空间模块")
     # allure标题-title
     @allure.story("用例--我的空间获取用户信息测试")
     # allure描述信息
@@ -37,7 +38,7 @@ class TestSpace:
         logging.info("APi_data ==>> 实际结果：{}".format(response.json().get("data")))
         logging.info("-----------------test case my info stop-----------------")
 
-
+    @allure.feature("我的空间模块")
     # allure标题-title
     @allure.story("用例--我的空间创建用户分享下载链接测试")
     # allure描述信息

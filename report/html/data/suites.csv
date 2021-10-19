@@ -1,5 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Oct 11 21:17:38 CST 2021","Mon Oct 11 21:17:38 CST 2021","130","case","test_space","TestSpace","","","test_share_add[info0]","该用例是针对在我的空间创建用户分享下载链接接口的测试"
-"passed","Mon Oct 11 21:17:38 CST 2021","Mon Oct 11 21:17:38 CST 2021","696","case","test_order","TestOrder","","","test_get_recharge_list[info0]","该用例是针对订单记录列表接口的测试"
-"passed","Mon Oct 11 21:17:37 CST 2021","Mon Oct 11 21:17:37 CST 2021","551","case","test_login","TestLogin","","","test_login[info0]","该用例是针对登录接口的测试"
-"passed","Mon Oct 11 21:17:37 CST 2021","Mon Oct 11 21:17:38 CST 2021","228","case","test_space","TestSpace","","","test_get_my_info[info0]","该用例是针对我的空间获取用户信息接口的测试"
+"passed","Tue Oct 19 20:09:05 CST 2021","Tue Oct 19 20:09:06 CST 2021","613","case","test_login","TestLogin","","","test_login[info0]","该用例是针对登录接口的测试"

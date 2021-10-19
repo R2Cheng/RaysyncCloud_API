@@ -1,4 +1,0 @@
-[32mINFO    [0m root:test_space.py:47 -----------------test case share add start-----------------
-[32mINFO    [0m root:test_space.py:52 APi_Code ==>> 期望结果：200， 实际结果：200
-[32mINFO    [0m root:test_space.py:55 APi_Message ==>> 期望结果：OK， 实际结果：OK
-[32mINFO    [0m root:test_space.py:56 -----------------test case share add stop-----------------
